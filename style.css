@@ -1,0 +1,223 @@
+.banner {
+    background-color: #1a3563;
+    position: relative;
+}
+
+.banner img {
+    opacity: 0.5;
+}
+
+.banner3 {
+    position: absolute;
+    top: 100px;
+}
+
+.discover::before {
+    position: absolute;
+    top: 55px;
+    content: '';
+    width: 500px;
+    height: 2px;
+    background-color: #5e6062;
+}
+.discover2::before {
+    position: absolute;
+    top: 48px;
+    content: '';
+    width: 400px;
+    height: 2px;
+    background-color: #5e6062;
+}
+
+.weDo::before {
+    position: absolute;
+    top: 55px;
+    content: '';
+    width: 320px;
+    height: 2px;
+    left: 530px;
+    background-color: #5e6062;
+}
+
+.usp::before {
+    position: absolute;
+    top: 55px;
+    content: '';
+    width: 200px;
+    height: 2px;
+    left: 630px;
+    background-color: #5e6062;
+}
+.partner::before{
+    position: absolute;
+    top: 55px;
+    content: '';
+    width: 250px;
+    height: 2px;
+    left: 480px;
+    background-color: #5e6062;
+}
+.footerdiv{
+    border-bottom: 1px solid #5b6c98;
+}
+
+@media screen and (max-width:700px) {
+    .banner3 {
+        padding: 0px 30px 0px 30px;
+        top: 30px;
+    }
+
+    .banner-h1 {
+        font-size: 20px !important;
+    }
+
+    .banner3 span {
+        font-size: 20px !important;
+        margin-top: -2px;
+    }
+
+    .banner3 button {
+        margin-top: -2px;
+    }
+
+    .discover1 {
+        display: block !important;
+    }
+
+    .discover1 div {
+        padding: 10px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .discover {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .discover2{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px !important;
+        padding: 10px;
+    }
+
+    .discover::before {
+        top: 100px;
+        width: 300px;
+        left: 50px;
+    }
+    .discover2::before {
+        top: 50px;
+        width: 300px;
+        left: 50px;
+    }
+    
+
+    .value {
+        display: block !important;
+    }
+
+    .value div {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .weDo::before {
+
+        top: 40px;
+        content: '';
+        width:  235px;
+        height: 2px;
+        left: 50px;
+
+    }
+    .weDo{
+        font-size: 30px;
+    }
+
+    .we {
+        display: block !important;
+        margin: 10px !important;
+    }
+
+    .sales {
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .sales img {
+        width: 100%;
+    }
+
+    .sales p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .usp {
+        margin: 0px;
+        margin-top: 50px;
+    }
+
+    .usp::before {
+        left: 100px;
+    }
+
+    .usp2 {
+        display: block !important;
+    }
+
+    .usp1 {
+        display: block !important;
+    }
+
+    .usp1 {
+        margin-left: 10px !important;
+    }
+
+    .usp1 p {
+        margin: 10px;
+    }
+
+    .usp3 {
+
+        margin-left: 40px;
+    }
+
+    .meeting div {
+        display: block !important;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .meeting img {
+        margin-top: 40px !important;
+        margin-left: 67px;
+    }
+    .contactimg {
+        display: none;
+    }
+    .contact{
+        text-align: center;
+        margin: 10px;
+    }
+    .contactimg1{
+        width: 100%;
+    }
+    .contact button{
+        margin-bottom: 20px;
+    }
+    .partner::before{
+        position: absolute;
+        top: 55px;
+        content: '';
+        width: 250px;
+        height: 2px;
+        left: 80px;
+        background-color: #5e6062;
+    }
+}
